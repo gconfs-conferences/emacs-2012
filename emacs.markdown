@@ -1,6 +1,6 @@
 % Codage habile avec Emacs
 % Pierre-Olivier "Némunaire" Mercier; Clément "Void" Pellegrini
-% Jeudi 8 octobre 2012
+% Jeudi 11 octobre 2012
 
 # L'histoire d'Emacs
 
