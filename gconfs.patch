@@ -1,0 +1,27 @@
+--- emacs.tex	2012-10-11 12:36:21.090207921 +0200
++++ emacs.final	2012-10-11 12:30:37.689326676 +0200
+@@ -15,6 +15,13 @@
+   \fi
+ \fi
+ \usepackage{graphicx}
++\usepackage{xcolor}
++
++\definecolor{orangea}{RGB}{233,132,45}
++\definecolor{orangeb}{RGB}{188,84,7}
++\setbeamercovered{transparent}
++\setbeamercolor{structure}{bg=black,fg=orangea}
++
+ % Comment these out if you don't want a slide with just the
+ % part/section/subsection/subsubsection title:
+ \AtBeginPart{\frame{\partpage}}
+@@ -27,8 +34,8 @@
+ \setcounter{secnumdepth}{0}
+ 
+ \title{Codage habile avec Emacs}
+-\author{Pierre-Olivier ``Némunaire'' Mercier \and Clément ``Void'' Pellegrini}
+-\date{Jeudi 11 octobre 2012}
++\author{Pierre-Olivier \textit{Némunaire} Mercier \\ Clément \textit{Void} Pellegrini}
++\date{\vspace{-1.3cm}\\\includegraphics[height=75px]{gconfs.png}\\Jeudi 11 octobre 2012}
+ 
+ \begin{document}
+ \frame{\titlepage}
